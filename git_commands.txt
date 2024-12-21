@@ -1,0 +1,130 @@
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES/SEM2-WORK-GIT
+$ git clone https://github.com/urssanj00/mlops-vnit.git -b DEV_1.1
+
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES/SEM2-WORK-GIT
+$ ls -lrth
+
+
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES/SEM2-WORK-GIT
+$ cd mlops-vnit/
+
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES/SEM2-WORK-GIT/mlops-vnit (DEV_1.1)
+$ ls -lrth
+total 3.0K
+-rw-r--r-- 1 urssa 197609  33 Dec 21 11:55 README.md
+-rw-r--r-- 1 urssa 197609 922 Dec 21 11:55 iris-classfier.py
+-rw-r--r-- 1 urssa 197609  49 Dec 21 11:55 app.py
+
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES/SEM2-WORK-GIT/mlops-vnit (DEV_1.1)
+$ git checkout
+Your branch is up to date with 'origin/DEV_1.1'.
+
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES/SEM2-WORK-GIT/mlops-vnit (DEV_1.1)
+$ git checkout
+M       app.py
+Your branch is up to date with 'origin/DEV_1.1'.
+
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES/SEM2-WORK-GIT/mlops-vnit (DEV_1.1)
+$ cat app.py
+print("Hello World !")
+
+print("Hello World1 !")
+
+# test program
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES/SEM2-WORK-GIT/mlops-vnit (DEV_1.1)
+$ git commit
+[DEV_1.1 f91e667] ok
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES/SEM2-WORK-GIT/mlops-vnit (DEV_1.1)
+$ git add app.py
+
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES/SEM2-WORK-GIT/mlops-vnit (DEV_1.1)
+$ git commit
+On branch DEV_1.1
+Your branch is ahead of 'origin/DEV_1.1' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES/SEM2-WORK-GIT/mlops-vnit (DEV_1.1)
+$ git commit "done "
+error: pathspec 'done ' did not match any file(s) known to git
+
+
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES/SEM2-WORK-GIT/mlops-vnit (DEV_1.1)
+$ pwd
+/c/Sanjeev/VNIT_CLASSES/SEM2-WORK-GIT/mlops-vnit
+
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES/SEM2-WORK-GIT/mlops-vnit (DEV_1.1)
+$ cd ..
+
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES/SEM2-WORK-GIT
+$  git clone https://github.com/anandaru/mlops-vnit.git  -b bug-killer_model
+fatal: destination path 'mlops-vnit' already exists and is not an empty directory.
+
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES/SEM2-WORK-GIT
+$ cd ..
+
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES
+$  git clone https://github.com/anandaru/mlops-vnit.git  -b bug-killer_model
+Cloning into 'mlops-vnit'...
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 12 (delta 1), reused 5 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (12/12), done.
+Resolving deltas: 100% (1/1), done.
+
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES
+$ cd mlops-vnit/
+
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES/mlops-vnit (bug-killer_model)
+$ git status
+On branch bug-killer_model
+Your branch is up to date with 'origin/bug-killer_model'.
+
+nothing to commit, working tree clean
+
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES/mlops-vnit (bug-killer_model)
+$ git status
+On branch bug-killer_model
+Your branch is up to date with 'origin/bug-killer_model'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   app.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES/mlops-vnit (bug-killer_model)
+$ git add app.py
+
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES/mlops-vnit (bug-killer_model)
+$ git commit -m "test comment added"
+[bug-killer_model 3357e78] test comment added
+ 1 file changed, 2 insertions(+)
+
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES/mlops-vnit (bug-killer_model)
+$ git push
+fatal: unable to connect to cache daemon: Unknown error
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 359 bytes | 359.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/anandaru/mlops-vnit.git
+   a8b3cb1..3357e78  bug-killer_model -> bug-killer_model
+
+urssa@sanjeev2022 MINGW64 /c/Sanjeev/VNIT_CLASSES/mlops-vnit (bug-killer_model)
+$
