@@ -1,0 +1,11 @@
+# Ignore MLflow artifacts and logs
+mlruns/
+mlartifacts/
+
+# Ignore virtual environments
+venv/
+*.pyc
+__pycache__/
+
+# Ignore OS-generated files
+.DS_Store
