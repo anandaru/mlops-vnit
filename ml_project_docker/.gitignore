@@ -1,0 +1,18 @@
+# Ignore everything inside ml_project_docker except specified folders
+ml_project_docker/*
+!ml_project_docker/{src/,data/,api/,artifacts/,docker/}
+
+# Ignore specific files and directories
+ml_project_docker/mlruns/
+**/__pycache__/
+**/__init__.py
+
+# Ignore Python cache and compiled files
+*.pyc
+*.pyo
+*.pkl
+
+# Ignore environment files and virtual environments
+.env
+*.venv
+venv/
